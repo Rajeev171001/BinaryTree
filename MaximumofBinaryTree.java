@@ -4,6 +4,6 @@ static int maximum(Node root){
 		return Math.max(root.data,Math.max(maximum(root.left),maximum(root.right)));
 	}
 
-//minimum value of node
+//maximum value of node
 //call this function in main function
 //first make binary tree
